@@ -6,7 +6,7 @@ let closedHam = document.getElementById('aligner')
 function OpenMotors(){
     openHam.style.visibility ='hidden'
     closedHam.style.visibility = 'visible'
-    motorNav.style.left = '0px'
+    motorNav.style.left = '85px'
 }
 
 function CloseMotors(){
@@ -18,11 +18,11 @@ function CloseMotors(){
 function CheckScreen(){
     const screenWidth = window.screen.width;
 
-    if(screenWidth > 750){
+    if(screenWidth > 770){
         closedHam.style.visibility = 'hidden'
         openHam.style.visibility ='hidden'
     }
-    if(screenWidth < 750){
+    if(screenWidth < 770){
 
         if(motorNav.style.left === '0px'){
             closedHam.style.visibility = 'visible'
