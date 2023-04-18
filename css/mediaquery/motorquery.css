@@ -100,21 +100,43 @@
     #filter{
         visibility: visible;
         z-index: 99;
+        position: relative;
+        left: 25px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        background: #fff;
+        height: 60px;
+        width: 60px;
+        border-radius: 50px;
+        text-align: center;
+        padding: 5px 5px;
+        color: #003bec;
     }
 
     #aligner{
-        visibility: hidden;
+        visibility: hidden; 
         z-index: 99;
     }
     .search-container{
         position: relative;
-        left: -55px;
+        left: -5px;
+    }
+
+    .bi-x{
+        position: relative;
+        left: 70px;
+        box-shadow: none;
+        background: transparent;
+        
     }
 
     .motor-main{
         margin-top: -250px;
         
     } 
+
+    .motor-main .card{
+        width: 275px !important;
+    }
     
 }
 @media (max-width:650px) {
@@ -137,12 +159,7 @@
     }
 }
 
-@media (max-width:630px){
-    
 
-     
-   
-}
 
 
 @media (max-width:570px){
@@ -218,16 +235,70 @@
       width: 260px;
       font-size: 14px;
     }
+    .bg-motors .calc-header{
+        width: 300px;
+    }
   }
-
-
-  
 
 
 @media (max-width:375px){
     .calc-main{
-        width: 350px;
+        width: 315px;
 
     }
 
+    .calc-header h2{
+        font-size: 18px;
+    }
+
+    .form-select{
+        width: 250px;
+    }
+    .plan-container{
+        margin-left: 30px !important;
+    }
+    .plan-container h1{
+        width: 284px !important;
+    }
+
+    .plan-container p{
+        font-size: 14px;
+        width: 260px !important;
+    }
+
+    .plan-container .btnPlan{
+        left: 5px !important;
+    }
+
+    .container-text1 .headText{
+        font-size: 20px;
+    }
+
+    .container-text1 p{
+        width: 280px !important;
+        font-size: 16px !important;
+    }
+
+    .motor-main .price-btn{
+        gap: 15px;
+    }
+
+    .price-btn .btn{
+        width: 80px;
+    }
+
+}
+
+@media (max-width:350px) {
+    .search-container{
+        left: -36px;
+    }
+
+    #filter{
+        left: 0px;
+    }
+
+    .motor-main .price-btn{
+        flex-direction: column;
+    }
 }

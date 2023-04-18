@@ -304,6 +304,10 @@ body {
   font-weight: bold;
 }
 
+.motor-main .card{
+  width: 300px !important;
+}
+
 .motor-main .price-btn {
   display: flex;
   gap: 30px;
