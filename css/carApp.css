@@ -14,93 +14,101 @@ body {
 
 
 /* Top navigation bar */
-
 header {
     width: 100%;
     display: flex !important;
     align-items: center;
-    justify-content: space-between;
-    position: fixed;
+    justify-content: space-evenly;
+  
     transition: all 0.5s;
     /* border-bottom: 2px solid #d1d1d1; */
-    background: #FFFFFF;
+    background: #ffffff;
     height: 124px;
     z-index: 99;
-}
-
-.header-nav {
+  }
+  
+  .header-nav {
     margin: 0;
     padding: 0;
-}
-
-
-/* Logo Image */
-
-header img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 145px;
+  }
+  
+  /* Logo Image */
+  header img {
     width: 130px;
     height: 100px;
-}
-
-.header-nav .brand {
+  }
+  
+  .header-nav {
+    display: flex;
+    background: transparent;
+  }
+  
+  .header-nav .brand {
     padding-top: 0px;
     display: flex;
-}
-
-
-/* Navigation menu */
-
-.header-nav .nav-menu {
+  }
+  
+  /* Navigation menu */
+  .header-nav .nav-menu {
     list-style: none;
-    display: flex;
+    display: flex !important;
+    flex-direction: row;
     gap: 50px;
-}
-
-.header-nav li a {
+  }
+  
+  .header-nav li a {
     text-decoration: none;
     color: #838383;
     font-weight: 500;
     font-size: 16px;
     border-bottom: 3px solid transparent;
     transition: 0.5s ease-in-out;
-}
-
-.header-nav li a:focus {
-    background: -webkit-linear-gradient(#0038FF, #00D1FF);
+    padding: 10px;
+  }
+  
+  .header-nav li a:is(:link, :active, :visited).active {
+    background: -webkit-linear-gradient(#0038ff, #00d1ff);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: bold;
-    border-bottom: 3px solid #003BEC;
-}
-
-.header-nav li a:hover {
-    background: -webkit-linear-gradient(#0038FF, #00D1FF);
+    border-bottom: 3px solid #003bec;
+  }
+  
+  .header-nav li a:hover {
+    background: -webkit-linear-gradient(#0038ff, #00d1ff);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-
-
-/* Button Login */
-
-.btn-login {
+  }
+  
+  /* Button Login */
+  .header-nav .btn-login {
     display: flex;
     border-radius: 100px;
     height: 60px;
     width: 100px;
-    border: 3px solid #003BEC !important;
+    border: 3px solid #003bec !important;
     align-items: center;
     justify-content: center;
     margin: 20px 20px;
-}
-
-.btn-login a {
-    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .btn-login a {
+    font-family: "Montserrat", sans-serif;
     text-decoration: none;
     font-weight: bold;
     font-size: 18px;
-    color: #003BEC;
-}
+    color: #003bec;
+  }
+  
+  .ham {
+    display: none;
+  }
 
 
 /*----------------Carousel----------------------- */
