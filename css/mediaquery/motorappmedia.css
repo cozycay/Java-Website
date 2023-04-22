@@ -1,0 +1,100 @@
+@media (max-width:960px) {
+    .section2Caro{
+        height: 578px;
+    }
+    .carousel-inner{
+        height: 579px !important;
+    }
+    
+    .section2Caro img{
+        height: 578px;
+    }
+
+    .transdescBox{
+        right: 15px;
+    }
+
+    .carousel-control-next, .carousel-control-prev{
+        height: 700px !important;
+    }
+
+    .carousel-indicators{
+        top: 560px !important;
+      }
+}
+
+@media (max-width:780px){
+    .section2Caro{
+        height: 484px;
+    }
+   
+    .carousel-inner{
+        height: 485px !important;
+    }
+    .section2Caro img{
+        height: 484px;
+    }
+
+    .carousel-indicators{
+        top: 463px !important;
+    }
+
+    .carousel-control-next, .carousel-control-prev{
+        height: 606px !important;
+    }
+}
+
+@media (max-width:620px){
+
+    .section2Caro{
+        height: 432px;
+    }
+    .section2Caro img{
+        height: 433px;
+    }
+
+    .carousel-indicators{
+        top: 415px !important;
+    }
+}
+
+@media (max-width:480px){
+    .section2Caro{
+        height: 363px;
+    }
+
+    .section2Caro img{
+        height: 363px;
+    }
+
+    .carousel-inner{
+        height: 365px !important;
+    }
+
+    .carousel-indicators{
+        top: 342px !important;
+    }
+    .box-trans{
+        width: 219px;
+    }
+}
+
+@media (max-width:400px){
+    .section2Caro{
+        height: 326px;
+    }
+
+    .section2Caro img{
+        height: 327px;
+    }
+
+    .carousel-inner{
+        height: 327px !important;
+    }
+
+    .carousel-indicators{
+        top: 307px !important;
+    }
+
+    
+}
