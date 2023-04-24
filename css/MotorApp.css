@@ -6,10 +6,11 @@
 }
 
 body {
-    scroll-behavior: smooth;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+  scroll-behavior: smooth;
+  background: url("../img/motors/pexels-rangga-aditya-armien-235222\ 2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 
@@ -260,7 +261,7 @@ header {
 }
 
 .headerTitle input{
-    background: #F0EFEF;
+    background: #ffffff;
     border-radius: 10px;
     width: 364px;
     height: 42px;
@@ -577,6 +578,7 @@ background-color: #003bec !important;
   font-weight: bold;
   font-size: 24px;
 }
+
 
 .unit-container .model1{
   display: flex;
@@ -907,4 +909,219 @@ footer {
   
   .terms-container li a:hover {
     text-decoration: underline !important;
+  }
+/* --------------------------------------- */
+  .section4 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 10px;
+  }
+  
+  .paragraph {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .paragraph h1{
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  .paragraph span{
+    color: #003BEC;
+  }
+  .section4 .motor {
+    width: 100%;
+    background: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .motor .motor-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+  
+  }
+  
+  .motor-main .card{
+    width:425px !important
+  }
+  
+  .motor-main .stars {
+    width: 62px;
+    height: 36px;
+    /* background: #dfdfdf; */
+    backdrop-filter: brightness(80%);
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    border-radius: 25px;
+    display: flex;
+    text-align: start;
+    align-items: center;
+    justify-content: start;
+    padding: 5px 5px;
+  
+    gap: 3px;
+    transition: 1s ease;
+  }
+  
+  .stars i {
+    background-color: #f8c633;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 50px;
+  }
+  .stars h4 {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .img-top {
+    overflow: hidden;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+  }
+  
+  .img-top img {
+    /*  add transition to the container  */
+  
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .img-top:hover img {
+    transform: scale(1.2) rotate(0deg);
+  }
+  
+  .img-top:hover .stars {
+    animation-name: starblink;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes starblink {
+    from {
+      background: #fff;
+    }
+    to {
+      backdrop-filter: brightness(80%);
+    }
+  }
+  
+  .motor-main .card-title {
+    font-weight: bold;
+  }
+  
+  .motor-main .price-btn {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+  
+    margin-top: 30px;
+  }
+  
+  .price-btn h3 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .price-btn .btn {
+    width: 119px;
+    height: 52px;
+    border-radius: 50px;
+    background: linear-gradient(135deg, #003bec 0%, #00AEEF 100%) !important;
+    color: #fff !important;
+  
+    margin-top: -10px;
+    padding-top: 12px;
+  }
+  
+  
+  .motor .button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px;
+  }
+
+  /* ------Subscribe */
+
+  .section8 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 600px;
+  }
+  
+  .section8 .container8 {
+    font-family: "Montserrat";
+    width: 600px;
+    position: relative;
+    left: 150px;
+  }
+  
+  .container8 .header8 {
+    font-size: 40px;
+    font-weight: bold;
+    width: 800px;
+  }
+  
+  .container8 span {
+    color: #003bec;
+  }
+  
+  .container8 .descText {
+    opacity: 0.6;
+    width: 545px;
+    font-size: 20px;
+  }
+  
+  .container8 .subscribeI {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .subscribeI input {
+    width: 370px;
+    border-radius: 23px;
+    border: none;
+    padding: 15px;
+  }
+  
+  .subscribeI button {
+    background: linear-gradient(135deg, #003bec 0%, #016ac6 100%);
+    color: white;
+    font-family: "Poppins";
+    font-size: 16px;
+    padding: 14px 32px;
+    border-radius: 32px;
+    width: 150px;
+    border: none;
+  }
+  
+  .section8 img {
+    position: relative;
+    top: 50px;
+    right: 110px;
+    width: 495px;
+    height: 275px;
   }
