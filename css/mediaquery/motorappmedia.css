@@ -1,0 +1,305 @@
+@media (max-width:1200px){
+    .main-sec2 .submit{
+        width: 748px;
+    }
+
+}
+
+@media (max-width:1050px){
+
+    .sectionDesc .headerTitle{
+        gap: 75px;
+    }
+    .sectionDesc .infoContainer{
+        gap: 15px;
+    }
+
+    .boxrating{
+        width: 497px;
+    }
+
+    .infos p{
+        width:465px;
+    }
+
+    .ratingsCont .long{
+        font-size: 16px !important;
+    }
+
+    .contbox{
+        gap: 93px;
+    }
+
+    .starRate{
+        right: -171px;
+        top: 112px;
+    }
+
+    .box-header h3{
+        width: 200px;
+    }
+    .w-93{
+        width: 414px !important;
+    }
+
+    .w-91{
+        width: 414px !important;
+    }
+}
+@media (max-width:960px) {
+    .section2Caro{
+        height: 578px;
+    }
+    .carousel-inner{
+        height: 579px !important;
+    }
+    
+    .section2Caro img{
+        height: 578px;
+    }
+
+    .transdescBox{
+        right: 15px;
+    }
+
+    .carousel-control-next, .carousel-control-prev{
+        height: 700px !important;
+    }
+
+    .carousel-indicators{
+        top: 560px !important;
+    }
+
+    .sectionDesc .infoContainer{
+        flex-direction: column;
+    }
+
+    .sectionDesc .headerTitle{
+        flex-direction: column-reverse;
+        gap: 8px;
+    }
+
+    .w-93{
+        width: 414px !important;
+    }
+
+    .w-91{
+        width: 414px !important;
+    }
+
+    .main-sec2 .submit{
+        width: 700px;
+    }
+}
+
+@media (max-width:780px){
+    .section2Caro{
+        height: 484px;
+    }
+   
+    .carousel-inner{
+        height: 485px !important;
+    }
+    .section2Caro img{
+        height: 484px;
+    }
+
+    .carousel-indicators{
+        top: 463px !important;
+    }
+
+    .carousel-control-next, .carousel-control-prev{
+        height: 606px !important;
+    }
+
+    .w-93{
+        width: 414px !important;
+    }
+
+    .w-91{
+        width: 414px !important;
+    }
+
+    .main-sec2 .submit{
+        width: 322px;
+    }
+}
+
+@media (max-width:620px){
+
+    .section2Caro{
+        height: 432px;
+    }
+    .section2Caro img{
+        height: 433px;
+    }
+
+    .carousel-indicators{
+        top: 415px !important;
+    }
+
+    .headerTitle h1{
+        font-size: 40px;
+    }
+
+    .infosbox .infos{
+        align-items: center;
+    }
+
+    .infos p{
+        font-size: 16px;
+    }
+
+    .w-93{
+        width: 414px !important;
+    }
+
+    .w-91{
+        width: 414px !important;
+    }
+}
+@media (max-width:500px){
+
+    .ratingsCont h1{
+        font-size: 20px;
+    }
+    .boxrating{
+        width: 365px;
+    }
+
+    .ratingsCont .long{
+        font-size: 12px !important;
+    }
+    .boxrating .box-header{
+        gap: 182px;
+    }
+    .content label{
+        width: 255px;
+    }
+
+    .contbox{
+        gap: 8px;
+    }
+
+    .starRate{
+        right: -110px;
+        top:102px;
+    }
+
+    .w-93{
+        width: 285px !important;
+    }
+
+    .w-91{
+        width: 285px !important;
+    }
+}
+
+@media (max-width:480px){
+    .section2Caro{
+        height: 363px;
+    }
+
+    .section2Caro img{
+        height: 363px;
+    }
+
+    .carousel-inner{
+        height: 365px !important;
+    }
+
+    .carousel-indicators{
+        top: 342px !important;
+    }
+    .box-trans{
+        width: 219px;
+    }
+
+    .infos p{
+        width: 327px;
+    }
+
+    .sidebox{
+        width: 365px;
+    }
+
+    .w-93{
+        width: 280px !important;
+    }
+
+    .w-91{
+        width: 281px !important;
+    }
+    
+
+    
+}
+
+@media (max-width:400px){
+    .section2Caro{
+        height: 326px;
+    }
+
+    .section2Caro img{
+        height: 327px;
+    }
+
+    .carousel-inner{
+        height: 327px !important;
+    }
+
+    .carousel-indicators{
+        top: 307px !important;
+    }
+
+    .sidebox{
+        width: 310px;
+    }
+
+    .sidebox .headerMain{
+        gap: 148px;
+    }
+    .headerTitle h1{
+        font-size: 30px;
+    }
+
+    .headerTitle input{
+        width: 300px;
+    }
+
+    .colorCont{
+        gap: 42px;
+    }
+
+    .ratingsCont .long{
+        width: 200px;
+    }
+
+    .boxrating{
+        width: 340px;
+    }
+
+    .content label{
+    width: 228px;
+    }
+
+    .boxrating .box-header{
+        gap: 160px;
+    }
+
+    .starRate{
+        right: -99px;
+        top: 114px;
+
+    }
+
+    .w-93{
+        width: 255px !important;
+    }
+
+    .w-91{
+        width: 255px !important;
+    }
+
+    
+}

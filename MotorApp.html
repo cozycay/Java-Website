@@ -9,6 +9,9 @@
 
     <link rel="stylesheet" href="css/MotorApp.css">
     <link rel="stylesheet" href="./css/mediaquery/stylemedia.css">
+    <link rel="stylesheet" href="./css/mediaquery/motorappmedia.css">
+    <link rel="stylesheet" href="./css/mediaquery/confirmmedia.css">
+    
     <!-- Google APi Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
@@ -16,13 +19,9 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
 <body>
@@ -36,7 +35,7 @@
         <nav class="header-nav" id="header-nav">
             <ul class="nav-menu" id="nav-menu">
                 <li class="nav-item">
-                    <a href="#" class="active">Home</a>
+                    <a href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
                     <a href="./carsPage.html">Cars</a>
@@ -82,7 +81,7 @@
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active bgc-1">
@@ -92,64 +91,577 @@
                             <img src="./img/motors/Honda-Click.png" alt="">
                         </div>
 
-                        <div class="box-trans">
-                            <div class="content-trans">
-                                <h3><strong>Reviews</strong></h3>
-                                <div>
-                                    <h4><strong>Mangonang</strong></h4>
-
-                                </div>
-
-                                <p>"It's insanely cheap, I rented a car here. with a very cool and great mobile from a very cool brand. and great facilities!”</p>
-                            </div>
-                           
-                            
-
+                        <div class="transdescBox">
                             <i class="bi bi-arrow-left-short">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left-short" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z"/>
                                   </svg>
                             </i>
+                            <div class="box-trans">
+                                <div class="content-trans">
+                                    <h3><strong>Reviews</strong></h3>
+                                    <div>
+                                        <h4><strong>Mangonang</strong></h4>
+    
+                                    </div>
+    
+                                    <p>"It's insanely cheap, I rented a car here. with a very cool and great mobile from a very cool brand. and great facilities!”</p>
+                                </div>                                                         
+                            </div>
+
                             <i class="bi bi-arrow-right-short">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
                                   </svg>
                             </i>
                         </div>
+
+                        
                     </div>
                     <!-- <img class="d-block w-100" src="./img/How to Property 1= Default.png" alt="First slide"> -->
                 </div>      
                     <!-- <img class="d-block w-100" src="./img/How to Variant4.png" alt="Fourth slide"> -->
                 </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon " aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
+            </div>           
         </div>
     </section>
-    <br><br>
-    <br><br>
 
-    <!--                         DESCRIPTION                     -->
+  <section class="sectionDesc">
+        <div class="headerTitle">
+            <h1><strong>Honda Click 150i</strong></h1>
+            <input type="text" placeholder="Search Brand or Model">
+        </div>
 
-    
+        <div class="infoContainer">
+            <div class="sidebox">
+                <div class="headerMain">
+                    <h3>Model</h3>
+                    <h3>Price</h3>
+                </div>
+                <div class="modelPrice">
+                    <div class="modelDesc">
+                        <h2 style="color:#003bec"><strong>Honda Click 150i</strong></h2>
+                        <h3>Honda - The Power of Dreams</h3>
+                    </div>
+                    <p>&#x20B1;76,900</p>
+                </div>
+                <div class="specCont">
+                    <h3><strong>Specification</strong></h3>
+                    <div class="specs">
+                        <div>
+                            <h5 style="color:#003bec"><strong>Engine Type/Brake System</strong></h5>
+                            <p>4 Stroke, SOHC, Liquid-Cooled, eSP,Hydraulic Disc Brake / Mechanical Leading Trailing</p>
+                        </div>
+                        <div>
+                            <h5 style="color:#003bec"><strong>Seat Height</strong></h5>
+                            <p>769mm</p>
+                        </div>
+                        <div>
+                            <h5 style="color:#003bec"><strong>Fuel Capacity (L)</strong></h5>
+                            <p>5.5L</p>
+                        </div>
+                        <div>
+                            <h5 style="color:#003bec"><strong>Displacement (cc)</strong></h5>
+                            <p>150cc</p>
+                        </div>
+                        <div>
+                            <h5 style="color:#003bec"><strong>Transmission</strong></h5>
+                            <p>Automatic</p>
+                        </div>
+                        <div>
+                            <h5 style="color:#003bec"><strong>Front Tier</strong></h5>
+                            <p>90/80 - 14 M/C 43P</p>
+                        </div>
+                        <div>
+                            <h5 style="color:#003bec"><strong>Wheels Type</strong></h5>
+                            <p>Cast Wheel</p>
+                        </div>
+                        <div>
+                            <h5 style="color:#003bec"><strong>Starting System</strong></h5>
+                            <p>Electric / DECOMP</p>
+                        </div>
+                        <div>
+                            <h5 style="color:#003bec"><strong>Rear Tire</strong></h5>
+                            <p>100/80 - 14 M/C 48P</p>
+                        </div>
+                        <div>
+                            <h5 style="color:#003bec"><strong>Overall Dimensions (lenght x width x height)</strong></h5>
+                            <p>Dimensions (lenght x width x height)1,919 x 679 x 1,062 (mm)</p>
+                        </div>
+                        <div>
+                            <h5 style="color:#003bec"><strong>Fuel System</strong></h5>
+                            <p>PGM-Fi</p>
+                        </div>
+                        <div>
+                            <h5 style="color:#003bec"><strong>
+                                Headlight</strong></h5>
+                            <p>LED</p>
+                        </div>
+                        <div>
+                            <h5 style="color:#003bec"><strong>
+                                Security Systemt</strong></h5>
+                            <p>Anti-Theft Alarm</p>
+                        </div>
+                    </div>
+                </div>
 
-<!--                     APPLICATION FORM                  -->
+                <div class="colorCont">
+                    <h3><strong>Color</strong></h3>
+                    <div class="colors">
+                        <div class="lightwhite"></div>
+                        <div class="red"></div>
+                        <div class="black"></div>
+
+                        <div class="gray"></div>
+                        <div class="white"></div>
+                    </div>
+                </div>
+
+                <div class="btn-specs">
+                    <button type="button">View Full Specs</button>
+                </div>        
+            </div>
+
+            <div class="infosbox">
+                <div class="infos">
+                    <p>With its stylish looks and efficient performance all topped up with an affordable price, the Honda Click 150i is sure to attract many motorcycle buyers of today. Updated in 2018, this scooter is made available with only one Standard version. The said variant retails at P98,900.
+                    <br><br> Key equipment in the Click 150i includes LED taillights and headlights, a sports-style muffler with aluminum end cap, a digital instrument cluster, and an idling-stop system that switches off the engine during traffic stops, and back on again when it’s time to accelerate in order to avoid unnecessary fuel consumption.
+                    <br><br>
+                    Its beating heart is a liquid-cooled, four-stroke, SOHC, 150cc engine that produces 13hp and 13Nm of torque. The engine is fuel-injected and is mated to a continuously variable transmission (CVT). For safety, the Click 150i is fitted with a front disc brake.
+                    <br>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        See more <i class="bi bi-caret-down-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                            <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+                          </svg></i>
+                      </button>
+                    </p>
+
+                    <div class="collapse" id="collapseExample">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos similique consequuntur optio, consectetur id illum mollitia doloremque enim necessitatibus. Eius aliquid repellendus ipsa voluptatem doloribus doloremque hic, ratione deserunt asperiores.</p>
+                    </div>
+                    
+                
+                </div>
+                <div class ="ratingsCont">
+                    <div class="starRate">
+                        <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#F9EC7D" class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg></i>
+                        <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#F9EC7D" class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg></i>
+                        <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#F9EC7D" class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg></i>
+                        <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#F9EC7D" class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg></i>
+                        <i class="bi bi-star-fill"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#F9EC7D" class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                        </svg></i>
+                    </div>
+                    <h1><strong>Honda Click 150i Owner Review</strong></h1>
+                    <p class="long">Find out from real owners what it's like to own Honda Click 150i</p>
+                    <div class="boxrating">
+                        <div class="box-header">
+                            <h3>Overall Rating</h3>
+                            <p>4.9/5.0</p>
+                        </div>
+
+                        <div class="content">
+                            <div class="contbox">
+                                <div class="contrate">
+                                    <label class="headercontent"><strong>Performance</strong></label>
+                                    <p>Engine Output (HP), Acceleration, Transmission, Handling</p>
+                                </div>
+                                <p class="rate">4.9/5</p>
+                                
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar w-93" role="progressbar" aria-valuenow="93" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+
+                            <div class="contbox">
+                                <div class="contrate">
+                                    <label class="headercontent"><strong>Design</strong></label>
+                                    <p>Quality, Exterior and Interior Design</p>
+                                </div>
+                                <p class="rate">5.0/5</p>
+                                
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar w-100" role="progressbar" aria-valuenow="93" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+
+                            <div class="contbox">
+                                <div class="contrate">
+                                    <label class="headercontent"><strong>Value</strong></label>
+                                    <p>Worthy and Quality of the car</p>
+                                </div>
+                                <p class="rate">5.0/5</p>
+                                
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar w-100" role="progressbar" aria-valuenow="93" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+
+                            <div class="contbox">
+                                <div class="contrate">
+                                    <label class="headercontent"><strong>Safety and Technology</strong></label>
+                                    <p>Worthy and Quality of the car</p>
+                                </div>
+                                <p class="rate">5.0/5</p>
+                                
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar w-91" role="progressbar" aria-valuenow="93" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+  </section>
+
+  <section class="sec2">
+    <div class="main-sec2">
+    <div class="header-sec2">
+        <p>Ready to Buy? Get a Quote!</p>
+    </div>
+
+    <div class="unit-container">
+        <div class="unit-header">
+            <h2>Unit Applied for</h2>
+        </div>
+        <div class="model-cont">
+            <div class="model1">
+                <div class="variant1">
+                    <label for="exampleFormControlSelect1"><strong>Model Variant</strong></label>
+                        <select class="form-select" id="exampleFormControlSelect1">
+                        <option selected>Open this select menu</option>
+                        <option value="1">Ford Mustang</option>
+                        <option value="2">Ford Raptor</option>
+                        <option value="3">Ford Expedition</option>
+
+                    </select>
+                    <label for="exampleFormControlSelect1"><strong>Preferred Loan</strong></label>
+                        <select class="form-select" id="exampleFormControlSelect1">
+                        <option selected>Open this select menu</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        
+                    </select>
+                </div>
+                <div class="variant2">
+                    <label for="exampleFormControlSelect1"><strong>Unit Price</strong></label>
+                        <select class="form-select" id="exampleFormControlSelect1">
+                        <option selected>Open this select menu</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+
+
+                    </select>
+                    <label for="exampleFormControlSelect1"><strong>Preferred Loan Duration</strong></label>
+                        <select class="form-select" id="exampleFormControlSelect1">
+                        <option selected>Open this select menu</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                  
+                    </select>
+
+                </div>
+            </div>
+            <div class="model2">
+                <div class="model2-variant1">
+                    <label for="exampleFormControlSelect1" style="margin-bottom: 14px;"><strong>Valid IDs</strong></label>
+                    <br>
+                        <select class="form-select" id="exampleFormControlSelect1">
+                        <option selected>Open this select menu</option>
+                        <option value="1">Philippine Identification Card</option>
+                        <option value="2">Driver License</option>
+                        <option value="3">Passport</option>
+                        <option value="4">UMID</option>
+                        <option value="5">SSS</option>
+                    </select>
+                </div>
+                <div class="list-id">
+                    <ul>
+                        <li>2 valid IDs</li>
+                        <li>Latest COE with comprehension</li>
+                        <li>Latest ITR</li>
+                        <li>3 months latest payslip</li>
+                        <li>Proof of billing</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+<!-- ---------------------------------------------------PERSONAL INFORMATION ---------------------------------------------------- -->
+        <div class="unit-header">
+            <h2>Principal Personal Information</h2>
+        </div>
+        <div class="personalInfo">
+                <div class="form-group">
+                  <label for="Name">First Name</label>
+                  <input type="text" class="form-control" id="exampleInputName1" aria-describedby="emailHelp" placeholder="Enter First Name">
+                </div>
+                <div class="form-group">
+                    <label for="Name">Last Name</label>
+                    <input type="text" class="form-control" id="exampleInputName1" aria-describedby="emailHelp" placeholder="Enter Last Name">
+                </div>
+                <div class="form-group" >
+                    <label for="Name">Middle Name</label>
+                    <input type="text" class="form-control" id="exampleInputName1" aria-describedby="emailHelp" placeholder="Enter Middle Name">
+                </div>
+        </div>
+        <div class="personalInfo">
+            <div class="form-group">
+                <label for="Birthday">Birthday</label>
+                <input type="date" class="form-control" id="exampleInputName1" aria-describedby="emailHelp" placeholder="Enter Birthday">
+              </div>
+              <div class="form-group" >
+                <label for="Birthday">Status</label>
+                <input type="text" class="form-control" id="exampleInputName1" aria-describedby="emailHelp" placeholder="Enter Status">
+              </div>
+              <div class="form-group" >
+                  <label for="Mobile">Mobile Number</label>
+                  <input type="number" class="form-control" id="exampleInputName1" aria-describedby="emailHelp" placeholder="Enter Mobile Number">
+              </div>
+        </div>
+        <div class="personalInfo">
+            <div class="form-group">
+                <label for="Email">Email Address</label>
+                <input type="email" class="form-control" id="exampleInputName1" aria-describedby="emailHelp" placeholder="Enter Email Address">
+              </div>
+              <div class="form-group">
+                  <label for="Location">Location</label>
+                  <input type="text" class="form-control location" id="exampleInputName1" aria-describedby="emailHelp" placeholder="Enter Location"> 
+              </div>
+              <div class="form-group">
+                  <label for="Zip">Zip Code</label>
+                  <input type="number" class="form-control zip" id="exampleInputName1" aria-describedby="emailHelp" placeholder="Enter Zip Code">
+              </div>
+        </div>
+        <div class="come">
+            <label for="income" style="font-weight: bold;">Source of Income</label>
+            <div class="income">
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">Employment</label>
+              </div>
+              <div class="form-check" style="padding-left: 120px;">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">Business</label>
+              </div>
+            </div>
+        </div>
+        
+
+
+        <div class="personalInfo1" style="padding-top: 20px;">
+            <div class="form-group">
+                <label for="businessname">Employment/Business Name</label>
+                <input type="text" class="form-control business" id="exampleInputName1" aria-describedby="emailHelp" placeholder="Enter Employment/Business Name">
+              </div>
+              <div class="form-group"  >
+                  <label for="address">Address</label>
+                  <input type="text" class="form-control business" id="exampleInputName1" aria-describedby="emailHelp" placeholder="Enter Address"> 
+              </div>
+        </div>
+
+        <div class="BusinessInfo" style="padding-top: 20px;">
+            <div class="bus1">
+            <div class="form-group">    
+                <label for="number">Number</label>
+                <input type="number" class="form-control" id="exampleInputName1" aria-describedby="emailHelp" placeholder="Enter Employment/Business Name">
+              </div>
+              <div class="form-group"  style="padding-left: 31px;">
+                  <label for="designation">Designation</label>
+                  <input type="text" class="form-control" id="exampleInputName1" aria-describedby="emailHelp" placeholder="Enter Designation"> 
+              </div>
+            </div>
+
+            <div class="bus2">
+              <div class="form-group" style="padding-left: 31px;">
+                <label for="businessname">Length of Stay</label>
+                <input type="text" class="form-control" id="exampleInputName1" aria-describedby="emailHelp" placeholder="Enter Length of Stay">
+              </div>
+              <div class="form-group"  style="padding-left: 31px;">
+                  <label for="address">Monthly Income</label>
+                  <input type="text" class="form-control" id="exampleInputName1" aria-describedby="emailHelp" placeholder="Enter Monthly Income"> 
+              </div>
+            </div>
+        </div>
+<!-- ---------------------------------------------------SPOUSE/CO-MAKER INFORMATION---------------------------------------------------- -->
+        <div class="unit-header" style="padding-top: 20px;">
+            <h2>Spouce/Co-Maker Information</h2>
+        </div>
+        <div class="personalInfo">
+                <div class="form-group">
+                  <label for="Name">First Name</label>
+                  <input type="text" class="form-control" id="exampleInputName1" aria-describedby="emailHelp" placeholder="Enter First Name">
+                </div>
+                <div class="form-group">
+                    <label for="Name">Last Name</label>
+                    <input type="text" class="form-control" id="exampleInputName1" aria-describedby="emailHelp" placeholder="Enter Last Name">
+                </div>
+                <div class="form-group" >
+                    <label for="Name">Middle Name</label>
+                    <input type="text" class="form-control" id="exampleInputName1" aria-describedby="emailHelp" placeholder="Enter Middle Name">
+                </div>
+        </div>
+        <div class="personalInfo">
+            <div class="form-group">
+                <label for="Birthday">Birthday</label>
+                <input type="date" class="form-control" id="exampleInputName1" aria-describedby="emailHelp" placeholder="Enter Birthday">
+              </div>
+              <div class="form-group" >
+                  <label for="Status">Status</label>
+                  <input type="text" class="form-control" id="exampleInputName1" aria-describedby="emailHelp" placeholder="Enter Status">
+              </div>
+              <div class="form-group" >
+                  <label for="Mobile">Mobile Number</label>
+                  <input type="number" class="form-control" id="exampleInputName1" aria-describedby="emailHelp" placeholder="Enter Mobile Number">
+              </div>
+        </div>
+        <div class="personalInfo">
+            <div class="form-group">
+                <label for="Email">Email Address</label>
+                <input type="email" class="form-control" id="exampleInputName1" aria-describedby="emailHelp" placeholder="Enter Email Address">
+              </div>
+              <div class="form-group"  >
+                  <label for="Location">Address</label>
+                  <input type="text" class="form-control comaker" id="exampleInputName1" aria-describedby="emailHelp" placeholder="Enter Address"> 
+              </div>
+              <div class="form-group" >
+                  <label for="Zip">Relation to the Principal</label>
+                  <input type="number" class="form-control relation" id="exampleInputName1" aria-describedby="emailHelp" placeholder="Relation to the Principal">
+              </div>
+        </div>
+        
+        <div class="ending">
+        <p>I/We hereby certify that all data and statement in this application are correct, and are made for purpose of obtaining credit and the signatures 
+            appearing hereon are genuine. I authorize you to obtain such information as you may require concerning the statements made in this application and
+            that the source from which you may verify are authorized to provide any information relative to this application. I agree that the application may remain
+            your property whether the credit is granted or not.</p>
+        </div>
+    </div>
+    <div class="submit">
+        <button class="btn1">Submit</button>
+        <button class="btn2">Cancel</button>
+        </div>
+    </div>
   
-   
+</div>
+    </section>
 
-   
+    <section class="section4">
 
-<!--                POPULAR CARS            -->
+        <div class="motor-contain">
+            <div class="paragraph">
+                <h1>Popular Motorcycle by <span>Model</span> </h1>
+            </div>
 
-   
+            <div class="motor">
 
-    <!--            SIGN UP NOW         -->
+                <div class="motor-main">
+
+                    <div class="card" style="width: 384px; height: 450px; border-radius: 25px;">
+                        <div class="img-top">
+                          
+                          <img src="./img/pic1.png" class="card-img-top" alt="..." style="height:239px; border-top-right-radius: 25px; border-top-left-radius: 25px;">
+                          <div class="stars">
+                            <div class="yel"><i class="fa fa-star"></i></div>
+                            <h4>5.0</h4>
+                          </div>
+                        </div>
+                          
+                          <div class="card-body">
+                            <h5 class="card-title">Honda Genio</h5>
+                            <p class="card-text">Great car with very durable electrical power and a very modern design.</p>
+                            
+                            <div class="price-btn">
+      
+                              <h3>$790.500,00</h3>
+      
+                              <a href="#" class="btn btn-primary">Buy Now</a>
+      
+                            </div>                    
+                          </div>
+                      </div><!--card-->
+                      <div class="card" style="width: 384px; height: 450px; border-radius: 25px;">
+                        <div class="img-top">
+                          
+                          <img src="./img/pic2.png" class="card-img-top" alt="..." style="height:239px; border-top-right-radius: 25px; border-top-left-radius: 25px;">
+                          <div class="stars">
+                            <div class="yel"><i class="fa fa-star"></i></div>
+                            <h4>5.0</h4>
+                          </div>
+                        </div>
+                          
+                          <div class="card-body">
+                            <h5 class="card-title">Honda Genio</h5>
+                            <p class="card-text">Great car with very durable electrical power and a very modern design.</p>
+                            
+                            <div class="price-btn">
+      
+                              <h3>$460.500,00</h3>
+      
+                              <a href="#" class="btn btn-primary">Buy Now</a>
+      
+                            </div>                    
+                          </div>
+                      </div><!--card-->
+                      <div class="card" style="width: 384px; height: 450px; border-radius: 25px;">
+                        <div class="img-top">
+                          
+                          <img src="./img/pic3.png" class="card-img-top" alt="..." style="height:239px; border-top-right-radius: 25px; border-top-left-radius: 25px;">
+                          <div class="stars">
+                            <div class="yel"><i class="fa fa-star"></i></div>
+                            <h4>5.0</h4>
+                          </div>
+                        </div>
+                          
+                          <div class="card-body">
+                            <h5 class="card-title">Honda Genio</h5>
+                            <p class="card-text">Great car with very durable electrical power and a very modern design.</p>
+                            
+                            <div class="price-btn">
+      
+                              <h3>$670.500,00</h3>
+      
+                              <a href="#" class="btn btn-primary">Buy Now</a>
+      
+                            </div>                    
+                          </div>
+                      </div><!--card-->
+
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </section>
+
+
+    <section class="section8">
+
+        
+        <div class="container8">
+            <p class="header8">Sign Up To The <span class="java">Java Auto Motor</span> Newsletter</p>
+            <p class="descText">
+                Do you want to be the first to know about the latest automotive deals? Just subscribe with your email address and we’ll send you alerts on the most incredible deals as they happen.
+            </p>
+            
+            <div class="subscribeI">
+                <input class="email" type="text" placeholder="Your Email Address" />
+            
+                <button class="subscribe">Subscribe</button>
+            </div>
+            
+
+        </div>
+
+            <img class="car" src="./img/design1.png" alt="Car Design" />
+</section>
 
     
 
